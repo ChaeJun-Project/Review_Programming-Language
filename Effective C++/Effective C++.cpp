@@ -11,9 +11,10 @@ struct dadasdas
 };
 
 
-
 int main()
 {
 	dadasdas d;
     std::cout << sizeof(d);
+
+	return 0;
 }
