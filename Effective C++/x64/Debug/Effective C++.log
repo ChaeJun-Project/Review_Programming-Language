@@ -1,0 +1,3 @@
+﻿  Effective C++.cpp
+c:\users\user\documents\github\review_programming-language\effective c++\effective c++.cpp(51): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+  Effective C++.vcxproj -> C:\Users\User\Documents\GitHub\Review_Programming-Language\x64\Debug\Effective C++.exe

@@ -3,18 +3,49 @@
 
 #include <iostream>
 #include <string>
-struct dadasdas 
+
+int Fibo_Re(int num)
 {
-	int d;
-	int o;
-	double i;
+	if (num == 1 || num == 2)
+		return 1;
+
+	return Fibo_Re(num - 1) + Fibo_Re(num - 2);
+}
+
+int Fibo(int num)
+{
+	if (num == 1 || num == 2)
+		return 1;
+
+    int result = 0;
+	int temp1 = 1;
+	int temp2 = 1;
+
+	for (int i = 0; i < num - 2; i++)
+	{
+		result = temp1 + temp2;
+
+		temp1 = temp2;
+		temp2 = result;
+	}
+
+	return result;
+}
+
+struct d
+{
+  int q;
+  double r;
 };
 
+struct qwerqwe
+{
+   d wer;
+   int dsadasd;
+   char dadasd;
+};
 
 int main()
 {
-	dadasdas d;
-    std::cout << sizeof(d);
-
 	return 0;
 }
