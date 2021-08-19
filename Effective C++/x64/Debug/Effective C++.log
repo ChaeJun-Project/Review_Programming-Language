@@ -1,3 +1,4 @@
 ﻿  Effective C++.cpp
-c:\users\user\documents\github\review_programming-language\effective c++\effective c++.cpp(51): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+c:\users\user\documents\github\review_programming-language\effective c++\effective c++.cpp(52): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'float *'입니다.
+c:\users\user\documents\github\review_programming-language\effective c++\effective c++.cpp(52): warning C4313: 'printf': 서식 문자열의 '%d'이(가) 인수 1('float *' 형식)과(와) 충돌합니다.
   Effective C++.vcxproj -> C:\Users\User\Documents\GitHub\Review_Programming-Language\x64\Debug\Effective C++.exe

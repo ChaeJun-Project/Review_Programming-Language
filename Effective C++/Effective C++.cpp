@@ -47,5 +47,11 @@ struct qwerqwe
 
 int main()
 {
+    int i = 100;
+	float f = 3.0f;
+	printf("%d\n", &f);
+
+	int * ptr = (int*)&f;
+	printf("%d\n", *ptr);
 	return 0;
 }
