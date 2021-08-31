@@ -222,6 +222,32 @@
   <ItemGroup>
     <ClCompile Include="Effective C++.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="C++\C++ Basic" />
+    <None Include="Common\Const(상수)" />
+    <None Include="Common\Const\Const(상수)" />
+    <None Include="Common\ControlStatement\Control Statement%28제어문%29" />
+    <None Include="Common\Data Type(자료형)" />
+    <None Include="Common\DataType\Data Type(자료형)" />
+    <None Include="Common\Function\Function%28함수%29" />
+    <None Include="Common\Operator\Operator%28연산자%29" />
+    <None Include="Common\Pointer\Pointer%28포인터%29" />
+    <None Include="Common\Structure Type(구조체)" />
+    <None Include="Common\StructureType\Structure Type(구조체)" />
+    <None Include="Common\Variable\Variable%28변수%29" />
+    <None Include="CS\Program" />
+    <None Include="C\C Basic" />
+    <None Include="VS\Build Process" />
+    <None Include="VS\Shortcut Keys" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Common\Character\Character%28문자%29" />
+    <Text Include="Common\DynamicAllocation\Dynamic Allocation%28동적할당%29" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common\Character\Character.h" />
+    <ClInclude Include="Common\DynamicAllocation\DynamicAllocation.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

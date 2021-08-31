@@ -1,39 +1,16 @@
-﻿// Effective C++.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
-//
-
-#include <iostream>
-#include <string>
-
-int Fibo_Re(int num)
-{
-	if (num == 1 || num == 2)
-		return 1;
-
-	return Fibo_Re(num - 1) + Fibo_Re(num - 2);
-}
-
-int Fibo(int num)
-{
-	if (num == 1 || num == 2)
-		return 1;
-
-    int result = 0;
-	int temp1 = 1;
-	int temp2 = 1;
-
-	for (int i = 0; i < num - 2; i++)
-	{
-		result = temp1 + temp2;
-
-		temp1 = temp2;
-		temp2 = result;
-	}
-
-	return result;
-}
+﻿#include <iostream>
+#include "Common/DynamicAllocation/DynamicAllocation.h"
 
 int main()
 {
- 
+    int* pt = DynamicAllocate_cplusplus<int>(100);
+	pt[50] = 100;
+
+	std::cout<< pt[50]<<std::endl;
+
+	DeleteDynamicAllocate_cplusplus<int>(pt);
+
+	std::cout << pt[50];
+
 	return 0;
 }
