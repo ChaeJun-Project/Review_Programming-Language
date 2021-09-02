@@ -18,6 +18,9 @@
     <ClCompile Include="Effective C++.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Common\DynamicAllocation\DynamicAllocation.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="C\C Basic" />

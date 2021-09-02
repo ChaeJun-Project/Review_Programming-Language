@@ -220,6 +220,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Common\DynamicAllocation\DynamicAllocation.cpp" />
     <ClCompile Include="Effective C++.cpp" />
   </ItemGroup>
   <ItemGroup>

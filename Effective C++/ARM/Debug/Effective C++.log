@@ -1,2 +1,0 @@
-﻿  Effective C++.cpp
-ARM\Debug\Effective C++.obj : fatal error LNK1112: 'x86' 모듈 컴퓨터 종류가 'ARM' 대상 컴퓨터 종류와 충돌합니다.
